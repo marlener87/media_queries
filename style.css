@@ -78,7 +78,7 @@ body {
     }
 }
 
-@media screen and (min-width: 961px) {
+/*@media screen and (min-width: 961px) {
     body {
         background-color: royalblue;
     }
@@ -91,6 +91,38 @@ body {
         display: grid;
         grid-template-columns: 33% 34% 33%;
         grid-row-start: 1;
+        grid-row-end: 4;
+    }
+}*/
+
+/*@media screen and (min-width: 961px) {
+    body {
+        background-color: royalblue;
+    }
+    .section {
+        display: grid;
+        grid-template-columns: 33% 34% 33%;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+    .sign-up {
+        display: flex;
+    }
+    .content {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+}*/
+
+@media screen and (min-width: 961px) {
+    body {
+        background-color: royalblue;
+    }
+    .section {
+        display: grid;
+        grid-template-columns: 33% 34% 33%;
+        grid-row-start: 2;
         grid-row-end: 4;
     }
 }
