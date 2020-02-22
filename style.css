@@ -82,4 +82,15 @@ body {
     body {
         background-color: royalblue;
     }
+    .sign-up {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    .section {
+        display: grid;
+        grid-template-columns: 33% 34% 33%;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
 }
